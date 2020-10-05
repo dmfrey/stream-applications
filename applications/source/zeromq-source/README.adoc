@@ -1,0 +1,48 @@
+//tag::ref-doc[]
+= ZeroMQ Source
+
+The "zeromq" source enables receiving messages from ZeroMQ.
+
+The topics(s) must exist before the stream is deployed; they are not created automatically.
+
+== Input
+
+N/A
+
+== Output
+
+=== Payload
+
+* `byte[]`
+
+== Options
+
+The **$$zeromq$$** $$source$$ has the following options:
+
+//tag::configuration-properties[]
+$$zeromq.supplier.connect-url$$:: $$<documentation missing>$$ *($$String$$, default: `$$<none>$$`)*
+$$zeromq.supplier.topics$$:: $$<documentation missing>$$ *($$String[]$$, default: `$$[]$$`)*
+//end::configuration-properties[]
+
+Also see the https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html[Spring Boot Documentation]
+for addition properties for the broker connections and listener properties.
+
+== Build
+
+```
+$ ./mvnw clean install -PgenerateApps
+$ cd apps
+```
+You can find the corresponding binder based projects here.
+You can then cd into one of the folders and build it:
+```
+$ ./mvnw clean package
+```
+
+== Examples
+
+```
+java -jar zeromq-source.jar --zeromq.supplier.connectUrl=tcp://server:port --zeromq.supplier.topics=
+```
+
+//end::ref-doc[]

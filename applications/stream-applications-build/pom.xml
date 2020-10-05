@@ -41,6 +41,7 @@
         <twitter-search-source.version>${apps.version}</twitter-search-source.version>
         <twitter-stream-source.version>${apps.version}</twitter-stream-source.version>
         <websocket-source.version>${apps.version}</websocket-source.version>
+        <zeromq-source.version>${apps.version}</zeromq-source.version>
         <cassandra-sink.version>${apps.version}</cassandra-sink.version>
         <analytics-sink.version>${apps.version}</analytics-sink.version>
         <file-sink.version>${apps.version}</file-sink.version>

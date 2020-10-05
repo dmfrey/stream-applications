@@ -82,6 +82,9 @@ The following are the four major components of this repository.
 |link:functions/supplier/syslog-supplier/README.adoc[Syslog]
 |
 |link:functions/consumer/rsocket-consumer/README.adoc[RSocket]
+|link:functions/supplier/zeromq-supplier/README.adoc[ZeroMQ]
+|
+|
 |===
 
 === Reusable Spring Cloud Stream Applications
@@ -152,7 +155,7 @@ The following are the four major components of this repository.
 |link:applications/source/syslog-source/README.adoc[Syslog]
 |
 |link:applications/sink/pgcopy-sink/README.adoc[Pgcopy]
-|
+|link:applications/source/zeromq-source/README.adoc[ZeroMQ]
 |
 |link:applications/sink/rsocket-sink/README.adoc[RSocket]
 |===
